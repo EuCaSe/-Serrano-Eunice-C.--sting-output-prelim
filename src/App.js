@@ -6,7 +6,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{message}</h1>
+      <div className="App-header">
+        <div className="output-box">
+          <h1>{message}</h1>
+        </div>
+      </div>
     </div>
   );
 }
